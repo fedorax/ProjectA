@@ -1,12 +1,12 @@
 <?php
-
 /**
  *
  * SQLite用設定クラス
  *
  */
-class SQLiteConfig implements IDBConfig
+class SQLiteConfig extends DBConfig
 {
+	
 	/**
 	 * DBファイル
 	 */
@@ -26,6 +26,7 @@ class SQLiteConfig implements IDBConfig
 	 */
 	public function __construct($file, $key = NULL)
 	{
+		$this->_dbclass = "SQLite3";
 		$this->_file = $file;
 		$this->_key = $key;
 	}
@@ -37,15 +38,15 @@ class SQLiteConfig implements IDBConfig
 	 */
 	public function getConnectionString()
 	{
-		if(!isset($_file))
+		if($this->_file == NULL)
 		{
 			throw new DBUtilException("Not Set SQLite File.");
 		}
-		$str = "FILE=".$_file;
+		$str = "FILE=".$this->_file;
 		
-		if(isset($_key))
+		if($this->_key != NULL)
 		{
-			$str .= "&KEY=".$_key;
+			$str .= "&KEY=".$this->_key;
 		}
 		
 		return $str;
