@@ -1,6 +1,9 @@
 <?php
 /**
  * DBUtil例外クラス
+ *
+ * @author fedorax
+ * @version 1.0.0
  */
 class DBUtilException extends Exception
 {
@@ -12,7 +15,7 @@ class DBUtilException extends Exception
 	 * @param exception 例外
 	 *
 	 */
-    public function __construct($message, $code = 0, 
+    public function __construct($message, $code = 0,
     							Exception $exception = null) {
         parent::__construct($message, $code, $exception);
     }
