@@ -7,7 +7,15 @@ function setAlert($message)
 	<span aria-hidden="true">&times;</span>
 	<span class="sr-only">Close</span>
 	</button>
-	<strong>Error!</strong> <?php echo $message; ?>
+	<strong>Error!</strong>
+	<ul>
+	<?php
+		foreach($message as $msg)
+		{
+			echo "<li>".$msg."</li>\n";
+		}
+	?>
+	</ul>
 	</div>
 <?php
 }

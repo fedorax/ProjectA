@@ -6,6 +6,7 @@ class BaseController
 	public $action = null;
 	public $model = null;
 	public $view = null;
+	public $error = null;
 
 	public function __construct()
 	{
@@ -53,6 +54,30 @@ class BaseController
 		}
 		$this->view = ucfirst($view)."View";
 
+	}
+
+	public function addError($message)
+	{
+		if(empty($this->error))
+		{
+			$this->error = array();
+		}
+
+		array_push($this->error, $message);
+	}
+
+	public function hasError()
+	{
+		return !empty($this->error);
+	}
+
+	public function getError()
+	{
+		if($this->hasError())
+		{
+			return $this->error;
+		}
+		return null;
 	}
 
 	public function indexAction()

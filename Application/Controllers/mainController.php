@@ -8,6 +8,10 @@ class MainController extends BaseController
 
 		if($user != "master" || $pass != "p@ss")
 		{
+			if(!empty($user) || !empty($pass))
+			{
+				$this->addError("ユーザまたはパスワードが違います。");
+			}
 			if(!LoginManager::isLogin())
 			{
 				$this->setView("login");
