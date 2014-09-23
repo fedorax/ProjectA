@@ -1,9 +1,8 @@
 <?php
 class MainView extends BaseView
 {
-	public function render()
+	public function contents()
 	{
-	    setHeader(PROJECT_NAME);
 ?>
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -13,7 +12,6 @@ class MainView extends BaseView
      </div>
 
 <?php
-	setFooter();
 	}
 }
 ?>

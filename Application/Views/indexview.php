@@ -1,7 +1,7 @@
 <?php
 class IndexView extends BaseView
 {
-	public function render()
+	public function contents()
 	{
 		//require VIEW_PATH."loginView.php";
 		setHeader(PROJECT_NAME, PROJECT_NAME);
@@ -579,16 +579,6 @@ class IndexView extends BaseView
 
 
     </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="script/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
-  </body>
-</html>
 
 <?php
 	}

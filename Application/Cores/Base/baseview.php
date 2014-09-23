@@ -12,4 +12,18 @@ class BaseView
 	{
 		$this->model = $model;
 	}
+	public function render()
+	{
+		setHeader(PROJECT_NAME);
+		if($this->control->hasError())
+		{
+			setAlert($this->control->getError());
+		}
+		$this->contents();
+		setFooter();
+	}
+	protected function contents()
+	{
+
+	}
 }

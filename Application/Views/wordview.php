@@ -63,11 +63,9 @@ class WordView extends BaseView
       </form>
 <?php
     }
-	public function render()
+	public function contents()
 	{
-	    setHeader(PROJECT_NAME);
 ?>
-      <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="page-header">
         <h1>Word</h1>
       </div>
@@ -83,7 +81,6 @@ class WordView extends BaseView
       ?>
 
 <?php
-    setFooter();
 	}
 }
 ?>
