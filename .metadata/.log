@@ -1,0 +1,133 @@
+!SESSION 2014-08-08 00:22:46.303 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.462
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\AmaterasERD.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.626
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\AmaterasStepCounter.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.687
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\AmaterasUML.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.749
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\AnyEditTools.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.798
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\DBViewer.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.847
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\EclipseColorTheme.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.872
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\features\com.github.eclipsecolortheme.feature_0.13.1.201405041302.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.890
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\features\com.github.eclipsecolortheme.feature_0.13.1.201405041302.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.893
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\EclipseRunner.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:52.968
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\EGit.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.145
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\GEF.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.242
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\Glance.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.308
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\MergeDoc.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.356
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\Mylyn.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.749
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\NTail.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.780
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\OpenExternal.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:53.832
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\PDT.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.508
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.598
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.core_3.4.100.201312161920.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.599
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.dstore_3.4.100.201311131558.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.600
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.ftp_3.2.0.201305152119.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.602
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.local_2.1.500.201311252158.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.603
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.ssh_3.0.500.201305201712.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.604
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.telnet_2.3.100.201305201712.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.605
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.terminals_1.2.100.201311090851.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.608
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse_3.5.0.201312161920.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.610
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.tm.terminal_3.2.100.201311090851.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.674
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.core_3.4.100.201312161920.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.674
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.dstore_3.4.100.201311131558.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.675
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.ftp_3.2.0.201305152119.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.675
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.local_2.1.500.201311252158.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.676
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.ssh_3.0.500.201305201712.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.677
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.telnet_2.3.100.201305201712.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.677
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse.terminals_1.2.100.201311090851.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.678
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.rse_3.5.0.201312161920.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.678
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\RSE\eclipse\features\org.eclipse.tm.terminal_3.2.100.201311090851.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2014-08-08 00:22:54.681
+!MESSAGE Unable to acquire PluginConverter service during generation for: D:\pleiades\eclipse\dropins\Subversive.
+
+!ENTRY org.eclipse.ui 2 0 2014-08-08 00:23:27.184
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-08-08 00:23:27.184
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.php.ui', id='org.eclipse.dltk.ui.edit.text.java.source.quickMenu', categoryId='org.eclipse.jdt.ui.category.source'
+
+!ENTRY org.eclipse.ui 2 0 2014-08-08 00:23:27.939
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2014-08-08 00:23:27.939
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.php.ui', id='org.eclipse.dltk.ui.edit.text.java.source.quickMenu', categoryId='org.eclipse.jdt.ui.category.source'
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-08-08 00:23:30.211
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-08-08 00:23:30.211
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'

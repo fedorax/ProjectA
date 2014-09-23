@@ -1,15 +1,16 @@
 <?php
-    error_reporting(E_ALL|E_STRICT);
-	require_once './DB/require.php';
-	try {
-		$config = new SQLiteConfig("project.db");
-		$mgr = new DBManager($config);
-		$mgr->open();
-		$mgr->close();
-	}
-	catch (Exception $ex)
-	{
-		echo $ex->getMessage();
-	}
-	echo "Hello Project.";
+
+define('SITE_PATH', realpath(dirname(__FILE__)));
+define('APP_NAME', "Application");
+define('APP_PATH', realpath(SITE_PATH . "/". APP_NAME)."/");
+define('PROJECT_NAME', "ProjectA");
+
+require_once APP_PATH . "Application.php";
+
+$app = new Application();
+$app->start();
+
+require_once TEST_PATH."test.php";
+
+
 ?>
