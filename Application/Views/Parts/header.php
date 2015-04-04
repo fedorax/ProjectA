@@ -22,6 +22,9 @@ function setHeader($title)
     <!-- Custom styles for this template -->
     <link href="script/css/theme.css" rel="stylesheet">
 
+    <!-- Custom Styles for this-->
+    <link href="script/css/styles.css" rel="stylesheet">
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
