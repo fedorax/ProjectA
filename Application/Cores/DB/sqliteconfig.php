@@ -16,6 +16,8 @@ class SQLiteConfig extends DBConfig
 	public function __construct($file)
 	{
 		$this->_dsn = "sqlite:".$file;
+		$this->_user = null;
+		$this->_pass = null;
 	}
 }
 ?>
