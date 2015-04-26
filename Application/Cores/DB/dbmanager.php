@@ -32,14 +32,44 @@ class DBManager extends PDO
 	 */
 	public function open()
 	{
-		$this->_handle = parent::__construct($this->_config->getDsn(), $this->_config->getUser(), $this->_config->getPassword());
+		try {
+			$this->_handle = new PDO($this->_config->getDsn(), $this->_config->getUser(), $this->_config->getPassword());
+		}
+		catch (Exception $ex)
+		{
+			throw new DBUtilException($ex->getMessage(), $ex->getLine(), $ex);
+		}
 	}
+	/**
+	 * DBの接続状況を返します。
+	 */
+	public function isopen()
+	{
+		return isset($this->_handle);
+	}
+
 	/**
 	 * DBから切断します。
 	 */
 	public function close()
 	{
 		$this->_handle = null;
+	}
+	/**
+	 * DBに接続します
+	 * @see open
+	 */
+	public  function connect()
+	{
+		return $this->open();
+	}
+	/**
+	 * DBから切断します
+	 * @see close
+	 */
+	public function disconnect()
+	{
+		return $this->close();
 	}
 
 }
